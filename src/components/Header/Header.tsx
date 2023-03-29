@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
+import { Button } from "../Button";
 
 const HeaderWrapper = styled.div`
   color: white;
@@ -17,6 +18,7 @@ const HeaderContainer = styled.div`
 
 const Flex = styled.div`
   display: flex;
+  gap: 16px;
 `;
 
 const Header = () => {
@@ -31,8 +33,8 @@ const Header = () => {
         </Flex>
         <div>
           <Flex>
-            <div>Your claims</div>
-            <div>Add a cleam</div>
+            <Button>Your claims</Button>
+            <Button>Add a cleam</Button>
           </Flex>
         </div>
       </HeaderContainer>
