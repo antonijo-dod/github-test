@@ -33,7 +33,7 @@ const Header = () => {
         </Flex>
         <div>
           <Flex>
-            <Button>Your claims</Button>
+            <Button variant="primary">Your claims</Button>
             <Button>Add a cleam</Button>
           </Flex>
         </div>
